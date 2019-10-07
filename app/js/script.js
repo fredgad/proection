@@ -20,7 +20,7 @@ $(function () {
   });
   $('.about__bar_projects').click(function (e) {
     $('.active').removeClass('active');
-    $('#projects').addClass('active');
+    $('#gallery').addClass('active');
   });
   $('.about__bar_contacts').click(function (e) {
     $('.active').removeClass('active');

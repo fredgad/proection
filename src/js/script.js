@@ -28,7 +28,7 @@ $('.about__bar_about').click((e) => {
 });
 $('.about__bar_projects').click((e) => {
     $('.active').removeClass('active');
-    $('#projects').addClass('active');
+    $('#gallery').addClass('active');
 });
 $('.about__bar_contacts').click((e) => {
     $('.active').removeClass('active');
