@@ -17,18 +17,22 @@
 <body class="body">
 <div id="wrapper">
 
+    <img src="./images/main/page-background.png" alt="background">
+
     <header id="header"> 
-        <div class="header-left">
-            <h1>ХАЧАТУРЯН ЛЕВОН ГРАНТОВИЧ</h1>
+        <a href="#" class="header-left">   
+            <h1>ХАЧАТУРЯН&nbsp;ЛЕВОН&nbsp;ГРАНТОВИЧ</h1>
             <div>
                 <div class="header-left__line1"></div>
                 <h2>АРХИТЕКТОР</h2>
                 <div class="header-left__line2"></div>
             </div>
-        </div>
-        <div class="header-r">
-            <p>КОМПЛЕКСНОЕ ПРОЕКТИРОВАНИЕ ЗДАНИЙ ЖИЛОГО
-                И ОБЩЕСТВЕННОГО НАЗНАЧЕНИЯ ЛЮБОЙ СЛОЖНОСТИ И КАТЕГОРИИ</p>
+        </a>
+        <div class="header-right">
+            <div class="header-right__arrow"></div>
+            <p>КОМПЛЕКСНОЕ ПРОЕКТИРОВАНИЕ <br/>
+                ЗДАНИЙ ЖИЛОГО И ОБЩЕСТВЕННОГО НАЗНАЧЕНИЯ <br/>
+                ЛЮБОЙ СЛОЖНОСТИ И КАТЕГОРИИ</p>
         </div>
     </header>
         
@@ -37,19 +41,19 @@
             <div class="about">
                 <div class="about__bar">
                     <nav>
-                        <p class="about__bar_">О СЕБЕ</p>
-                        <p class="about__bar_">ПРОЕКТЫ</p>
-                        <p class="about__bar_">СКАЧАТЬ <span>PDF</span></p>
-                        <p class="about__bar_">КОНТАКТЫ</p>
+                        <p class="about__bar_about">О СЕБЕ</p>
+                        <p class="about__bar_projects">ПРОЕКТЫ</p>
+                        <a class="about__bar_download">СКАЧАТЬ <span>PDF</span></a>
+                        <p class="about__bar_contacts">КОНТАКТЫ</p>
                     </nav>
-                    <div class="about__bar_contacts">
+                    <div class="about__bar_tel-mail">
                         <a href="tel:+71966137272">+7 (916) 613 72 72</a>
                         <a href="mailto:6137272@mail.ru">6137272@mail.ru</a>
                     </div>
                 </div>
 
                 <div class="about__img">
-                    <img src="" alt="photo portret">
+                    <img src="./images/main/01_ХАЧАТУРЯН Л.Г (фото автора)портрет.jpg" alt="photo portret">
                 </div>
             </div>
 
@@ -73,8 +77,29 @@
             </div>
         </div>
         <div class="main-right">
-            <div class="galery">
-                      
+            <div id="gallery" class="active">
+                <div class="gallery-row1">
+                    <img src="./images/main/gallery1.jpg" alt="gallery image">
+                    <img src="./images/main/gallery2.jpg" alt="gallery image">
+                    <img src="./images/main/gallery3.jpg" alt="gallery image">
+                </div>
+
+                <div class="gallery-row2">
+                    <img src="./images/main/gallery4.jpg" alt="gallery image">
+                    <img src="./images/main/gallery5.jpg" alt="gallery image">
+                </div>
+            </div>
+
+            <div id="about">
+                about
+            </div>
+
+            <div id="projects">
+                projects
+            </div>
+
+            <div id="contacts">
+                contacts
             </div>
         </div>
     </main>
